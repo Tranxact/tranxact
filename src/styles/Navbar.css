@@ -1,8 +1,16 @@
 .navbar {
-    height: 60px;
+    height: 80px;
     top: 0%;
     position: sticky;
+    display: flex;
+    align-items: center;
     width: 100%;
-    background-color: dimgray;
-    border-bottom: 1px solid black;
+    /* background-color: black; */
+    padding: 0px 100px;
+}
+
+.navbar li {
+    color: whitesmoke;
+    list-style-type: none;
+    font-size: 20px;
 }

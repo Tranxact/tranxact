@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('./styles/Home.css');
 @import url('./styles/Navbar.css');
+@import url('./styles/style.scss');
+@import url('./styles/Drop.scss');
+@import url('./styles/About.scss');
+@import url('./styles/Contact.scss');
+@import url('./styles/FAQs.scss');
 
 * {
-    max-width: 1440px;
     margin: 0% auto;
     padding: 0%;
     box-sizing: border-box;
-    background-color: darkslategrey;
+    font-family: 'Manrope', sans-serif;
 }

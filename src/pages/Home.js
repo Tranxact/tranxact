@@ -1,9 +1,10 @@
 import React from 'react'
+import styled from 'styled-components'
 
 function Home() {
     return (
         <div className="home">
-            <h1>HELLO I'M TRACY IZEKOR</h1>
+            {/* create dummy data for files that needs it */}
         </div>
     )
 }
