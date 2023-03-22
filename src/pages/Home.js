@@ -5,6 +5,7 @@ function Home() {
     return (
         <div className="home">
             {/* create dummy data for files that needs it */}
+            {/* create a seperate branch of your own */}
         </div>
     )
 }
