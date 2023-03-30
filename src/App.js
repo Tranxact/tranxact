@@ -2,11 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
 import FAQs from './pages/FAQs';
 import Navbar from './components/Navbar'
 import BrowserCursor from './components/BrowserCursor';
 import Drop from './components/Drop';
+import Contact from './pages/contact';
+import Footer from './components/Footer';
 function App() {
   return (
     <Router>
@@ -29,6 +30,7 @@ function App() {
           {/* parts that are commented should remain so */}
           {/* <Drop /> */}
         </div>
+        <Footer />
       </div>
     </Router>
   );
