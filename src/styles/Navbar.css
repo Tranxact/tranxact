@@ -7,10 +7,15 @@
     width: 100%;
     padding: 0px 100px;
     z-index: 1000;
+    background-color: black;
 }
 
 .navbar li {
-    color: whitesmoke;
     list-style-type: none;
     font-size: 20px;
+}
+
+.navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
 }
