@@ -4,8 +4,9 @@
     position: sticky;
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     width: 100%;
-    padding: 0px 100px;
+    padding: 0px 50px;
     z-index: 1000;
     background-color: black;
 }
@@ -18,4 +19,18 @@
 .navbar li a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.ham {
+    display: none;
+}
+
+@media screen and (max-width: 540px) {
+    .navbar {
+        padding: 0px 20px;
+    }
+
+    .ham {
+        display: flex;
+    }
 }
